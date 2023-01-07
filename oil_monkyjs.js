@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         ChatGPT-Magic
-// @namespace    ChatGPT-Magic
+// @name         Mks哦哦哦
+// @namespace    Mks哦哦哦
 // @version      0.6
 // @license MIT
 // @description  这是一个最新的ai交互功能chatgpt，与搜索引擎融合的油猴插件，通过这个插件可以实现左边查看搜索引擎搜索结果，右边查看ai方给的答案方便日常工作优化搜索引擎。（重大更新！）
-// @author       //作者微信号wxid_qo94xu9bwvwo22
+// @author       //Mks
 // @match        *://*.baidu.com/*
 // @match        *://*.csdn.net/*
 // @match        *://*.google.com/*
@@ -53,7 +53,7 @@
         console.log(kw.value)
         return new Promise((resolve, reject) => {
             GM_xmlhttpRequest({
-                "url": " 接口地址 ",
+                "url": "http://flask.web-framework-16uy.1311773097165398.cn-shenzhen.fc.devsapp.net",
                 "data": JSON.stringify({
                     "prompt": kw.value,
                 }),
